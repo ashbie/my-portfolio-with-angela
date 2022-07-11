@@ -1,8 +1,25 @@
 h1{
-    margin-top: 0px;
-    position:relative;
-    top:100px;
+    margin: 0px auto 25px auto;
+    /*position:relative;
+    top:100px;*/
     font-family: 'Sacramento', cursive;
+    font-size: 7.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{ /* */
+    /*position:relative;
+    top:100px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
 }
 
 body{
@@ -14,34 +31,58 @@ body{
 }
 
 .top-container{
+    padding-top: 100px;
     background-color: #E4F9F5;
     position: relative;
-    height:550px;
+    /*height:550px;*/
 }
-.middle-container{
+/*.middle-container{
 }
 .bottom-container{
-}
+}*/
 .top-cloud{
     position: absolute;
-    top: 30px;
-    right: 670px;
+    /*top: 30px;
+    right: 500px; */
+    right: 300px;
+    top: 50px;
 }
 .bottom-cloud{
     position: absolute;
-    top: 220px;
-    left: 670px;
+    /*top: 385px;
+    left: 500px;*/
+    left: 300px;
+    bottom: 300px;
 }
-p{
-    position:relative;
-    top:100px;
-    font-family: 'Montserrat', sans-serif;
-}
+
 .mountain{
-    position: relative;
-    top: 100px;
+    /*position: relative;
+    top: 100px;*/
 
 }
 .profile-pic{
     width: 10vw;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.skill-row-image-left{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row-image-right{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-paragraph-1{
+    clear: left;
+}
+.skill-paragraph-2{
+    clear: right;
 }
