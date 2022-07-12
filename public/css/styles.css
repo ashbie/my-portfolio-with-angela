@@ -45,7 +45,7 @@ body{
 }
 */
 .bottom-container{
-    background-color: #66BFBF;
+    background-color: #e0ebe8;
     padding-top: 50px;
 }
 .top-cloud{
@@ -149,7 +149,7 @@ a:hover{
 .footer-p {
     margin-bottom: 0px;
     padding-bottom: 50px;
-    color: #EAF6F6;
+    color: #545454;
     font-size: 0.75rem;
 }
 hr {
